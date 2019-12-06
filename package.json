@@ -1,0 +1,17 @@
+{
+  "name": "sample_elm_html",
+  "version": "1.0.0",
+  "description": "Sample Elm web app",
+  "main": "dist/index.js",
+  "author": "Dmitry Melnikov",
+  "license": "MIT",
+  "scripts": {
+    "dev": "elm reactor",
+    "full": "yarn build && yarn start",
+    "build": "elm make src/Main.elm --output dist/index.js",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
